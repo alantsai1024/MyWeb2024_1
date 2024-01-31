@@ -381,8 +381,8 @@ app.use('/', require('./routes/pages'))
 
 app.use('/auth', require('./routes/auth'))
 
-server.listen(port, '0.0.0.0', () => {
-    console.log(`Server is running on https://${ip}:${port}`);
+server.listen(port, () => {
+    console.log(`Server is running on https://localhost:${port}`);
 });
 //mkcert -key-file C:\key.pem -cert-file C:\cert.pem "alantsai1024.local" 122.99.50.26 192.168.0.23
 //mkcert -key-file C:\key.pem -cert-file C:\cert.pem "*.alantsai1024.local" 122.99.50.26 192.168.0.23
