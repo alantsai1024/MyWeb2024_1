@@ -1,4 +1,4 @@
-const socket = io.connect('https://192.168.0.23:5555');
+const socket = io.connect('https://localhost:5555');
 
 var bottomlist = document.getElementById('bottomlist');
 var bottomfrienslist = document.getElementById('bottomfrienslist');
